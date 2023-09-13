@@ -1,8 +1,47 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Lib Movie App
 
-Currently, two official plugins are available:
+Esse projeto foi desenvolvido para praticar e entender conceitos utilizando React(router, rooks) com base nos ensinamentos por video aula do Matheus Battisti(Hora de Codar). Foi utilizado vite para desenvolvimento local.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Deploy: https://libmovie-neon.vercel.app/
+
+## Rodar o projeto local
+
+Clone o projeto em sua área de trabalho.
+
+```bash
+  git clone https://github.com/alisongfx/libmovie.git
+```
+
+Para fazer a instalação das dependências precisará do Gerenciador de Pacotes NPM que é próprio do NODE.js
+
+Node LTS: https://nodejs.org/en/download
+
+Instale as dependências rodando
+
+```bash
+npm i | npm install
+```
+
+Confira o arquivo .env para verificar se a key e URLs da API utilizada está [OK].
+
+Rode o projeto local
+```bash
+npm run dev
+```
+
+Retorno:
+
+```bash
+> libmovie@0.0.0 dev
+> vite
+
+
+  VITE v4.4.9  ready in 394 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h to show help
+```
+
+
